@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Aslan eksam 🎉</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Açılış -->
+  <div id="intro" class="intro">
+    <div class="intro-text" id="introText"></div>
+  </div>
+
+  <!-- Slayt Gösterisi -->
+  <div id="slideshow" class="slideshow hidden">
+    <img id="slideImage" src="" alt="Yasin Fotoğrafı" />
+    <div id="caption" class="caption"></div>
+  </div>
+
+  <!-- Eğlenceli Bölümler -->
+  <section id="funSection" class="hidden fun-section">
+    <div class="facts">
+      <h2>💡 Yasin Hakkında Gerçekler</h2>
+      <ul>
+        <li>- Çok konuşur ve boş konuşur kaçınılmaz gerçek</li>
+        <br>
+        <li>- Motordan başka birşey bildiği yok</li>
+        <br>
+        <li>- Yaş gittikçe çeneye vuruyor susmuyor</li>
+      </ul>
+    </div>
+    <div class="quotes">
+      <h2> Efsane Yasin Sözleri</h2>
+      <p id="quote">"aklıma gelmedi valla"</p>
+      <button id="newQuoteBtn">Yeni Söz</button>
+    </div>
+  </section>
+
+  <!-- Kapanış Mesajı -->
+  <section id="closingSection" class="hidden closing-section">
+    <p>Bu site, Yasin’in hayatımıza kattığı güzelliklerin küçük bir yansıması.<br>İyi ki doğdun kardeşim! 🎉❤️</p>
+  </section>
+
+  <!-- Müzik ve Buton -->
+  <audio id="bgMusic" src="mymusic.mp3" loop></audio>
+  <button id="musicBtn" class="music-btn">🔈 Ses Kapat</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
